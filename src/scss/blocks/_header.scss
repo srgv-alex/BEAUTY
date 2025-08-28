@@ -1,11 +1,27 @@
 .header {
+	position: relative;
+	padding-block: 20px 30px;
 	background-color: #fff;
 	&__row {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 118px;
+		left: 0;
+		width: 100%;
+		border-bottom: 1px solid var(--page-bg);
 	}
 }
 
 .header__nav {
+	flex-basis: 100%;
+	justify-items: center;
+	padding-top: 49px;
 }

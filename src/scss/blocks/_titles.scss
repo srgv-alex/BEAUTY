@@ -1,15 +1,14 @@
-.h-1 {
-	margin: 1em 0 0.5em;
-	font-size: 38px;
+.h1,
+.h2 {
 	font-weight: 700;
-	font-family: var(--font-titles);
+	font-size: 48px;
+	font-family: var(--font-main);
+	color: var(--page-bg-white);
 }
 
-.h-2 {
-	margin: 1em 0 0.5em;
-	font-size: 32px;
-	font-weight: 700;
-	font-family: var(--font-titles);
+.h2 {
+	font-size: 24px;
+	color: #000;
 }
 
 .h-3 {

@@ -24,10 +24,10 @@
 		<header class="header">
 			<div class="container">
 				<div class="header__row">
-					<div class="logo__wrapper">
+					<a href="#!" class="logo__wrapper">
 						<img src="./img/logo/logo.svg" alt="логотип" />
 						<span class="logo__text">BEAUTY</span>
-					</div>
+					</a>
 					<div class="header__input">
 						<input class="input" name="search" type="search" />
 					</div>
@@ -37,8 +37,12 @@
 					</div>
 					<nav class="header__nav nav">
 						<ul class="nav__list">
-							<li><a href=""></a></li>
-							<li><a href=""></a></li>
+							<li><a href="#!">Парикмахерская</a></li>
+							<li><a href="#!">Барбершоп</a></li>
+							<li><a href="#!">Маникюр</a></li>
+							<li><a href="#!">Педикюр</a></li>
+							<li><a href="#!">Массаж</a></li>
+							<li><a href="#!">Мебель</a></li>
 						</ul>
 					</nav>
 					<button class="mobile-nav-btn">
@@ -55,7 +59,38 @@
 		</div>
 		<main class="main">
 			<section>
-				<div class="container"></div>
+				<section class="fs">
+					<div class="container">
+						<div class="fs__content">
+							<div class="fs__header">
+								<h1 class="h1">Супер кресло</h1>
+							</div>
+							<p class="fs__text">
+								Текст акции всегда отражает суть, а&#160;не&#160;просто болтовню, поэтому внимательнее
+							</p>
+							<a class="fs__btn btn" href="#!">Подробнее</a>
+						</div>
+					</div>
+				</section>
+				<div class="container">
+					<section class="special-offers">
+						<div class="special-offers__header">
+							<h2 class="h2">Специальные предложения</h2>
+						</div>
+						<div class="card-offer">
+							<picture>
+								<source srcset="./img/offers/armchair.webp 1x, ./img/offers/armchair@2x.webp 2x" type="image/webp" />
+								<source srcset="./img/offers/armchair.png 1x, ./img/offers/armchair@2x.png 2x" type="image/png" />
+								<img src="./img/offers/armchair.png" width="125" height="166" alt="кресло" />
+							</picture>
+							<p class="card-offer__text">
+								Парикмахерское кресло &#171;Норм&#187; гидравлическое
+							</p>
+							<span class="price">9 900 ₽ </span>
+							<a class="card-offer__btn btn" href="#!">Купить</a>
+						</div>
+					</section>
+				</div>
 			</section>
 		</main>
 		<footer class="footer">

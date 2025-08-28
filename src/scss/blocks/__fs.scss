@@ -1,0 +1,21 @@
+.fs {
+	background: url(./../../img/hero/hero.jpg) no-repeat center;
+	padding-block: 192px;
+}
+.fs__content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 40px;
+	max-width: 308px;
+	color: var(--page-bg-white);
+}
+.fs__header {
+}
+
+.fs__text {
+	line-height: 1.42857;
+}
+.fs__btn {
+	padding: 11px 47px;
+}

@@ -1,0 +1,22 @@
+.card-offer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+	max-width: 250px;
+	padding: 19px 30px;
+	background-color: var(--page-bg-white);
+}
+.card-offer__text {
+	line-height: 1.40625;
+}
+.price {
+	font-weight: 500;
+	font-size: 21px;
+}
+.card-offer__btn {
+	padding: 9px 40px;
+	border-radius: 30px;
+	border: none;
+}
