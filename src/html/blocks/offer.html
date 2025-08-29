@@ -1,8 +1,36 @@
 <section class="special-offers">
-	<div class="special-offers__header">
+	<div class="special-offers__header mb-38">
 		<h2 class="h2">Специальные предложения</h2>
 	</div>
-	@@include("./../components/card-offer.html", {
+	<div class="special-offers__wrapper">
+		<div class="special-offers__cards">
+			@@loop("./../components/card-offer.html", "./data/card-offer.json")
+		</div>
+		<div class="benefits">
+			<div class="benefits-bonus utils-1">
+				<div class="benefits__content">
+					<h4 class="h4">Получайте бонусы и подарки</h4>
+					<p class="benefits-bonus__text">Каждый месяц разыгрываем <br>
+						10 000 рублей для наших клиентов
+					</p>
+					<input class='benefits-bonus__input' type="email" name='mail' placeholder='Введите e-mail'>
+				</div>
+				<img src="./../../img/icons/mail.svg" alt="почта">
+			</div>
+			<div class="benefits-about utils-1">
+				<div class="benefits__content">
+					<h4 class="h4">Заходите к нам</h4>
+					<p class="benefits-about__text">Более 300 магазинов <br>
+						по всей России
+					</p>
+					<a class="benefits-about__btn btn" href="#!">Карта магазинов</a>
+				</div>
+				<img src="./../../img/icons/truck.svg" alt="грузовик">
+			</div>
+		</div>
+		<div class="brands">
+			@@loop("./../components/brands.html", "./data/brands.json")
+		</div>
+	</div>
 
-	})
 </section>

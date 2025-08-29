@@ -1,6 +1,16 @@
 .special-offers {
 	padding-block: 80px;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		row-gap: 100px;
+	}
 }
 .special-offers__header {
 	margin-bottom: 38px;
+}
+
+.special-offers__cards {
+	display: flex;
+	gap: 35px;
 }

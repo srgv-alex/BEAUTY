@@ -1,0 +1,39 @@
+.benefits {
+	display: flex;
+	gap: 30px;
+}
+.benefits-bonus {
+	flex-grow: 1;
+}
+.benefits__content {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	max-width: 250px;
+}
+
+.benefits-bonus__text {
+	line-height: 1.40625;
+}
+.benefits-bonus__input {
+	padding: 9px 25px;
+	color: #000;
+	background-color: var(--page-bg-white);
+	border-radius: 30px;
+	max-width: 225px;
+	&::placeholder {
+		color: #c4c4c4;
+	}
+}
+
+.benefits-about {
+	flex-grow: 1;
+}
+
+.benefits-about__text {
+	line-height: 1.40625;
+}
+.benefits-about__btn {
+	padding: 7px 25px;
+	border-radius: 30px;
+}

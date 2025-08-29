@@ -1,0 +1,11 @@
+.brands {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1px;
+}
+
+.brands__img {
+	max-width: 277px;
+	padding: 35px 70px 35px 60px;
+	background-color: var(--page-bg-white);
+}
