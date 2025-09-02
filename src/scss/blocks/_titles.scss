@@ -1,5 +1,6 @@
 .h1,
 .h2,
+.h3,
 .h4 {
 	font-weight: 700;
 	font-size: 48px;
@@ -7,16 +8,16 @@
 	color: var(--page-bg-white);
 }
 
-.h2 {
+.h2,
+.h3 {
 	font-size: 24px;
 	color: #000;
 }
 
-.h-3 {
-	margin: 1em 0 0.5em;
-	font-size: 26px;
-	font-weight: 700;
-	font-family: var(--font-titles);
+.h3 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.40625;
 }
 
 .h4 {

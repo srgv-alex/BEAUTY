@@ -1,7 +1,44 @@
 <footer class="footer">
 	<div class="container">
-		<div class="footer__copyright">
+		<div class="footer-category">
+			<div class="footer-category__inner">
+				@@loop("./../components/category-item.html", "./data/category.json")
+			</div>
+		</div>
+		<!-- <div class="footer__copyright">
+
+		</div> -->
+	</div>
+	<div class="footer-contacts">
+		<div class="container">
+			<address class='address'>
+				<div class="footer__social">
+					<a href="#!">
+						<svg class="icon icon--youtube icon-social">
+							<use href="./img/svgsprite/sprite.symbol.svg#youtube"></use>
+						</svg>
+					</a>
+					<a href="#!">
+						<svg class="icon icon--vk icon-social">
+							<use href="./img/svgsprite/sprite.symbol.svg#vk"></use>
+						</svg>
+					</a>
+					<a href="#!">
+						<svg class="icon icon--facebook icon-social">
+							<use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
+						</svg>
+					</a>
+				</div>
+				<p class="footer-contacts__text">
+					198555, Невский пр. 140, офис 140
+				</p>
+				<div class="cta">
+					<a class="cta__link" href="tel:8(812)1234567">8 (812) 123-45-67</a>
+					<button class='cta__btn' type='button'>Обратный звонок</button>
+				</div>
+			</address>
 
 		</div>
+
 	</div>
 </footer>

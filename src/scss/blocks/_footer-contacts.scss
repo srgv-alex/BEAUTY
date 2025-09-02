@@ -1,0 +1,25 @@
+.footer-contacts {
+	padding-block: 38px;
+	border-top: 1px solid var(--page-bg);
+}
+
+.address {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__social {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	a {
+		display: inline-block;
+	}
+	svg {
+		transition: opacity 0.2s ease-in;
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+}

@@ -1,8 +1,22 @@
 .recently-viewed {
 	padding-bottom: 80px;
+	@include m425() {
+		padding-bottom: 50px;
+	}
 }
 
 .recently-viewed__cards {
 	display: flex;
-	column-gap: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	@include m425() {
+		gap: 15px;
+	}
+}
+
+.recently-viewed__header {
+	@include m425() {
+		margin-bottom: 15px;
+	}
 }
