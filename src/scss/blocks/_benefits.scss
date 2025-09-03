@@ -1,15 +1,26 @@
 .benefits {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 30px;
 }
 .benefits-bonus {
 	flex-grow: 1;
+	@media (max-width: 530px) {
+		flex-direction: column;
+		text-align: center;
+		gap: 20px;
+	}
 }
 .benefits__content {
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
 	max-width: 250px;
+	@media (max-width: 530px) {
+		align-items: center;
+		gap: 15px;
+	}
 }
 
 .benefits-bonus__text {
@@ -28,6 +39,11 @@
 
 .benefits-about {
 	flex-grow: 1;
+	@media (max-width: 530px) {
+		flex-direction: column;
+		text-align: center;
+		gap: 20px;
+	}
 }
 
 .benefits-about__text {

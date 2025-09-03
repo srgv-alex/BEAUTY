@@ -2,12 +2,18 @@
 	position: relative;
 	padding-block: 20px 30px;
 	background-color: #fff;
+	@include m360() {
+		padding-block: 10px;
+	}
 	&__row {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
 		flex-wrap: wrap;
+		@include m1280() {
+			justify-content: space-between;
+		}
 	}
 
 	&::before {
@@ -17,6 +23,9 @@
 		left: 0;
 		width: 100%;
 		border-bottom: 1px solid var(--page-bg);
+		@include m768() {
+			display: none;
+		}
 	}
 }
 

@@ -15,4 +15,8 @@
 			color: var(--accent);
 		}
 	}
+	@media (max-width: 525px) {
+		font-size: 12px;
+		column-gap: 9px;
+	}
 }

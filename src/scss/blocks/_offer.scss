@@ -1,16 +1,40 @@
 .special-offers {
 	padding-block: 80px;
+	@include m768() {
+		padding-block: 30px;
+	}
+
 	&__wrapper {
 		display: flex;
 		flex-direction: column;
 		row-gap: 100px;
+		@include m1024() {
+			row-gap: 50px;
+		}
+		@include m375() {
+			row-gap: 30px;
+		}
 	}
 }
 .special-offers__header {
 	margin-bottom: 38px;
+	@include m375() {
+		margin-bottom: 25px;
+	}
+}
+
+.special-offers__header h2 {
+	@include m375() {
+		font-size: 20px;
+	}
 }
 
 .special-offers__cards {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	gap: 35px;
+	@include m375() {
+		row-gap: 20px;
+	}
 }
