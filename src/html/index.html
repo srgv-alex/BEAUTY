@@ -7,23 +7,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>BEAUTY</title>
 	<link rel="stylesheet" href="./css/main.css" />
-
 	<link rel="icon" type="image/x-icon" href="./../img/favicons/logo.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="./../img/favicons/logo.ico">
 </head>
 
 <body>
-	<!-- @@include('blocks/header.html') -->
+	@@include('blocks/header.html')
 	<main class="main">
 		<section>
-			<!-- @@include("blocks/fs.html") -->
+			@@include("blocks/fs.html")
 			<div class="container">
-				<!-- @@include("blocks/offer.html") -->
-				<!-- @@include("blocks/recently-viewed.html") -->
+				@@include("blocks/offer.html")
+				@@include("blocks/recently-viewed.html")
 			</div>
 		</section>
 	</main>
 	@@include('blocks/footer.html')
+	@@include("./components/modal-call.html")
 	<script src="./js/index.bundle.js"></script>
 </body>
 
